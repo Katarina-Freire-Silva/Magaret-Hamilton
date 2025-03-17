@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 400px;
+    display: flex;   
+}
+
+p{
+    margin-top: 20px;
+    font-size: 60px;
+    color: rgb(5, 5, 5);
+    margin-left: 470px; 
+}
+
+#img1 {
+    width: 700px;
+    height: 350px;
+    margin-left: 450px;
+}
+
+#img2 {
+    width: 100%;
+    height: 500px;
+    display: flex; 
+    z-index: -1;
+    position: absolute;
+    top: 1px;
+    opacity: 0.8;
+}
